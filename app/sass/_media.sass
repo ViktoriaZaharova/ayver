@@ -1,0 +1,428 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1230px)
+  .box-calculate
+    width: 480px
+    h2
+      padding: 40px 10px
+
+  main
+    .main-wrapper
+      justify-content: space-around
+      .title
+        max-width: 450px
+
+  .about-advantages-box
+    padding: 20px 30px
+    p
+      font-size: 16px
+      min-width: 250px
+    .list-group .list-group-item
+      font-size: 14px
+
+  .progress-section
+    padding: 70px 0 90px
+
+@media only screen and (max-width : 1200px)
+  .about-advantages-image__img
+    width: 100%
+
+  .about-advantages-image__overlay
+    width: calc(100% - 20px)
+
+  .about-advantages
+    .description
+      font-size: 16px
+      line-height: normal
+
+  .progress-box__image
+    width: 500px
+
+  .progress-box__content
+    width: calc(100% - 500px)
+    h3
+      font-size: 22px
+      margin: 0 0 20px
+    .list-group
+      .list-group-item
+        font-size: 14px
+    .feature
+      font-size: 14px
+      padding: 0
+      line-height: 20px
+
+  .vk-links
+    font-size: 14px
+    line-height: 20px
+
+  .stages-work__box
+    width: 220px
+    p
+      font-size: 16px
+      line-height: 24px
+
+  .about-content
+    max-width: 400px
+    .description
+      font-size: 22px
+      line-height: 30px
+
+
+
+
+@media only screen and (max-width : 992px)
+  .phone
+    font-size: 20px
+
+  header
+    .header-wrapper
+      .description
+        max-width: 210px
+        font-size: 14px
+        margin: 0 auto 0 20px
+      .btn-callback
+        margin: 0 20px
+
+  main
+    .container
+      padding: 50px 15px
+    .main-wrapper
+      .title
+        max-width: none
+        width: 100%
+        text-align: center
+        margin: 0 0 20px
+
+  .about-content
+    max-width: none
+    padding: 70px 15px 50px
+
+  .about-image
+    height: auto
+    img
+      width: 100%
+      max-width: 100%
+
+  .advantages-wrapper
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    align-items: flex-start
+
+  .advantages-box
+    margin: 0 auto 40px
+    &:last-child
+      margin: 0 auto 40px
+
+  .callback
+    .form-estimate
+      margin: 0 auto
+
+  .contacts-box
+    margin: 0 auto 30px
+
+  .developer
+    flex-direction: column
+    align-items: center
+    .links
+      margin: 5px auto 0
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 960px)
+  .progress-box__content
+    width: calc(100% - 450px)
+    .feature
+      margin: 0 0 20px
+    .line
+      flex-direction: column
+      .vk-links
+        margin: 0 auto 10px
+
+  .about-advantages-box
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
+    p
+      min-width: auto
+      margin: 0 0 10px
+    .list-group
+      flex-wrap: wrap
+
+  .progress-box__image
+    width: 450px
+
+@media only screen and (max-width : 910px)
+  .stages-work
+    padding: 70px 0 80px
+
+  .stages-work__content
+    margin: 40px 0
+
+  .stages-work__box
+    width: 50%
+    margin: 0 auto 20px
+    p
+      max-width: 220px
+      margin: 15px auto 0
+    &:nth-child(2)
+      &:before
+        display: none
+
+@media only screen and (max-width : 870px)
+  header
+    .header-wrapper
+      padding: 20px 15px
+      flex-wrap: wrap
+      .description
+        width: 100%
+        max-width: none
+        order: 1
+        margin: 15px auto 0
+        text-align: center
+
+  .about-advantages-image__img, .about-advantages-image__overlay
+    height: 450px
+
+  .about-advantages-content
+    margin: 0 0 30px
+
+  .progress-box
+    flex-direction: column
+
+  .progress-box__image
+    border-radius: 5px 5px 0 0
+    height: auto
+    width: 100%
+    img
+      max-width: 100%
+      height: auto
+      border-radius: 5px 5px 0 0
+
+  .progress-box__content
+    width: 100%
+    .line
+      flex-direction: row
+      .vk-links
+        margin: 0
+
+  .recommended-box
+    width: 220px
+    height: 310px
+    img
+      max-width: 100%
+      height: auto
+
+  .recommended
+    margin: 70px 0
+
+  .masters-content
+    justify-content: space-around
+    margin: 25px 0 0 0
+
+  .masters
+    padding: 70px 0
+    h2.subtitle
+      text-align: center
+
+@media only screen and (max-width : 768px)
+  .about-advantages-content
+    max-width: none
+    margin: 0
+
+  .about-advantages-image__img
+    height: auto
+    img
+      height: auto
+      max-width: 100%
+
+  .about-advantages-image__overlay
+    height: calc(100% - 20px)
+
+  .about-advantages-image
+    margin: 50px 0 20px
+
+  .about-advantages
+    margin: 70px 0
+    .description
+      margin: 20px 0 30px
+      font-size: 16px
+      line-height: 24px
+
+  .warranty
+    padding: 70px 0 50px
+
+  .recommended-slider
+    margin: 30px 0 0
+
+  .project-manager
+    .container
+      padding: 80px 15px
+
+  footer
+    padding: 30px 0
+    .politics
+      text-align: center
+      margin: 10px 0 20px
+    .logo
+      margin: 0 auto
+
+  .modal-content
+    padding: 70px 20px 30px
+    .subtitle
+      margin: 0 auto 20px
+    form
+      button
+        margin: 20px auto 15px
+
+  #detailsModal
+    .modal-content
+      padding: 70px 20px 30px
+    .description
+      font-size: 14px
+      line-height: 20px
+
+  #thanksModal .modal-content, #thanksCallbackModal .modal-content
+    padding: 70px 20px 30px
+
+@media only screen and (max-width : 655px)
+  header
+    .header-wrapper
+      padding-top: 0
+      .description
+        width: 50%
+        margin: 20px 0 20px auto
+        order: initial
+        text-align: left
+      .btn-callback
+        margin: 0 auto
+    .logo
+      width: 50%
+
+  h1
+    font-size: 26px
+    line-height: normal
+
+  h2
+    font-size: 22px
+    line-height: normal
+
+  h2.subtitle
+    font-size: 26px
+    line-height: normal
+
+  main
+    .main-wrapper
+      .title
+        p
+          font-size: 18px
+          margin: 10px 0 0 0
+
+  .about-content
+    .description
+      font-size: 16px
+      line-height: 20px
+      margin: 0 0 20px
+    h4
+      font-size: 22px
+      line-height: 26px
+      margin: 10px 0 0
+    p
+      line-height: 24px
+
+  .form-estimate
+    padding: 30px 20px
+    .form-group
+      width: 100%
+
+  .setting
+    padding: 70px 0 50px
+
+@media only screen and (max-width : 575px)
+  .developer
+    margin: 20px 0 0
+
+@media only screen and (max-width : 530px)
+  .box-calculate
+    width: 95%
+    h2
+      flex-wrap: wrap
+      padding: 20px 15px
+    .box-calculate__body
+      padding: 30px 20px
+    p
+      font-size: 18px
+      line-height: normal
+
+  .section-title
+    flex-direction: column
+
+  .main-number
+    margin: 20px auto 0
+
+  .progress-box__content .list-group p
+    min-width: 90px
+
+  .delivery
+    min-height: auto
+    padding: 100px 0
+
+  .contacts
+    padding: 40px 0 20px
+
+  .contacts-box
+    a, span
+      font-size: 20px
+
+@media only screen and (max-width : 480px)
+  .stages-work__box
+    width: 100%
+    &:before
+      display: none
+
+@media only screen and (max-width : 450px)
+  header
+    .header-wrapper
+      padding-top: 20px
+      .logo
+        width: auto
+        margin: 0 auto
+      .btn-callback
+        width: 100%
+        order: 1
+        margin: 10px auto 0
+      .description
+        width: 100%
+        margin: 10px auto
+        text-align: center
+
+  .about-advantages
+    .btn-consultation
+      min-width: auto
+      height: auto
+      min-height: 45px
+
+  .progress-box__content
+    .line
+      flex-direction: column
+      .vk-links
+        margin: 0 auto 10px
+    h3
+      line-height: normal
+
+  .main-number
+    font-size: 16px
+
+  .slide-arrow
+    width: 33px
+    height: 33px
+
+@media only screen and (max-width : 360px)
+  .warranty
+    .warranty-box
+      width: 100%
+
+
